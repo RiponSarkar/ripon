@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Raleway:wght@100&family=Texturina:wght@100&display=swap');
+:root {
+  --black: black;
+  --white: #ffffff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.carousel-item{
+	height: 480px;
+}
+
+
+.carousel-caption{
+	position: absolute;
+	top: 55%;
+	transform: translateY(-80%);
+	left: -8%;
+}
+.carousel-caption h1{
+	font-size: 70px;
+	font-weight: 700;
+	color: black;
+}
+.carousel-caption p{
+	
+	font-weight: 600;
+	color: var(--black);
+}
+
+.navnew{
+	background-color: var(--white);
+	height: 50px;
+}
+.logo{
+	height: 45px;
+	width: 150px;
+	
+	/* background-color: red; */
+}
+.cart_search{
+	/* background-color: red; */
+	height: 50px;
+	width: 60px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.cart_search span i{
+
+	color: black;
+	/* border: 1px solid black; */
+	/* border-radius: 10px; */
+	cursor: pointer;
+	font-size: 20px;
+}
+.custome1{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	
+}
+.custome2{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-family: 'Piedra', cursive;
+	
+}
+.custome2 h1{
+	font-size: 50px;
+	font-weight: 500;
+}
+.size1{
+	
+	
+
+	position: relative;
+
+
+	
+}
+.size2{
+	height: 300px;	
+	
+	align-items: center;
+	justify-content: center;
+	
+
+
+}
+.icon_col span i{
+
+	font-size: 20px;
+	color: white;
+}
+.text_col{
+	font-family: 'Texturina', serif;
+}
